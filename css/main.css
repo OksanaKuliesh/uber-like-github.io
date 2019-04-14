@@ -1,0 +1,37 @@
+.body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.googleMap{
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(-10%); */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    padding: 10px;
+    /* transform: translateY(100%); */
+    z-index: 1;
+}
+
+.input{
+    /* padding-bottom: 5px; */
+    margin-bottom: 5px;
+
+}
+
+.input, .btn{
+    border-radius: 5px;
+}
